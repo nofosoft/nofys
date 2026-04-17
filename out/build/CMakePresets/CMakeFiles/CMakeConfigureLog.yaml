@@ -18732,3 +18732,346 @@ events:
         - "C:/Users/User/Documents/Nofosoft/nofys/out/install/CMakePresets"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-windows/debug;C:/vcpkg/installed/x64-windows"
 ...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    name: "fmt"
+    configs:
+      -
+        filename: "fmtConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "fmt-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "fmt"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/User/Documents/Nofosoft/nofys/out/build/CMakePresets/CMakeFiles/pkgRedirects/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/User/Documents/Nofosoft/nofys/out/build/CMakePresets/CMakeFiles/pkgRedirects/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/User/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.44.0-win32-x64/resources/cube-cmake/win32/x86_64/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/User/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.44.0-win32-x64/resources/cube-cmake/win32/x86_64/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/User/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.2.1-win32-x64/resources/binaries/win32/x86_64/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/User/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.2.1-win32-x64/resources/binaries/win32/x86_64/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/User/AppData/Local/Programs/Microsoft VS Code/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/User/AppData/Local/Programs/Microsoft VS Code/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/usbipd-win/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/usbipd-win/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Graphviz/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Graphviz/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/HP/IdrsOCR_15.2.10.1114/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/HP/IdrsOCR_15.2.10.1114/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PuTTY/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PuTTY/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Go/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Go/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/User/AppData/Local/Programs/Python/Python312/Scripts/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/User/AppData/Local/Programs/Python/Python312/Scripts/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/User/AppData/Local/Programs/Python/Python312/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/User/AppData/Local/Programs/Python/Python312/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/User/AppData/Local/Programs/Python/Launcher/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/User/AppData/Local/Programs/Python/Launcher/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/User/AppData/Local/Microsoft/WindowsApps/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/User/AppData/Local/Microsoft/WindowsApps/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/fujprog/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/fujprog/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/mingw64/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/mingw64/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/mingw32/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/mingw32/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/openFPGALoader/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/openFPGALoader/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/User/go/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/User/go/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/vcpkg/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/vcpkg/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/vcpkg/installed/x64-windows/debug"
+        - "C:/vcpkg/installed/x64-windows"
+      ENV{PATH}:
+        - "c:/Users/User/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.44.0-win32-x64/resources/cube-cmake/win32/x86_64"
+        - "c:\\Users\\User\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.2.1-win32-x64\\resources\\binaries\\win32\\x86_64"
+        - "c:/Users/User/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.44.0-win32-x64/resources/cube-cmake/win32/x86_64"
+        - "c:/Users/User/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.2.1-win32-x64/resources/binaries/win32/x86_64"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility"
+        - "C:/Program Files/usbipd-win/"
+        - "C:/Program Files/CMake/bin"
+        - "C:/Program Files/Graphviz/bin"
+        - "C:\\Program Files (x86)\\HP\\IdrsOCR_15.2.10.1114\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:/Program Files/Go/bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:/Users/User/AppData/Local/Programs/Python/Python312/Scripts/"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:/Users/User/AppData/Local/Programs/Python/Launcher/"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/User/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\fujprog"
+        - "C:/msys64/mingw64/bin"
+        - "C:\\msys64\\mingw32\\bin"
+        - "C:/openFPGALoader"
+        - "C:\\nofosoft\\tools\\arm_gcc\\bin"
+        - "C:/Users/User/go/bin"
+        - "C:\\Users\\User\\AppData\\Roaming\\npm"
+        - "C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin"
+        - "C:\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/User/Documents/Nofosoft/nofys/out/install/CMakePresets"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Users/User/Documents/Nofosoft/nofys/out/install/CMakePresets"
+      CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-windows/debug;C:/vcpkg/installed/x64-windows"
+...
