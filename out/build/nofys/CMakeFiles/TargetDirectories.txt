@@ -1,3 +1,0 @@
-C:/Users/User/Documents/Nofosoft/nofys/out/build/nofys/CMakeFiles/nofys.dir
-C:/Users/User/Documents/Nofosoft/nofys/out/build/nofys/CMakeFiles/edit_cache.dir
-C:/Users/User/Documents/Nofosoft/nofys/out/build/nofys/CMakeFiles/rebuild_cache.dir
