@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/User/Documents/Nofosoft/nofys/out/build/nofys",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\nofys.dir\\main.cpp.obj -c C:\\Users\\User\\Documents\\Nofosoft\\nofys\\main.cpp",
+  "file": "C:/Users/User/Documents/Nofosoft/nofys/main.cpp",
+  "output": "CMakeFiles/nofys.dir/main.cpp.obj"
+}
+]
