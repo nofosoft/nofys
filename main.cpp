@@ -1,6 +1,6 @@
-#include <fmt/core.h>
+#include <iostream>
 
 int main(int, char **)
 {
-    fmt::print("Hello, from nofys!\n");
+    std::cout << "Hello, from nofys!\n";
 }
