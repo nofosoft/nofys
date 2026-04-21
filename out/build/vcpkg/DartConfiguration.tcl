@@ -27,8 +27,8 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Users/User/AppData/Local/stm32cube/bundles/cmake/4.0.1+st.3/bin/cmake.exe" "C:/Users/User/Documents/Nofosoft/nofys"
-MakeCommand: C:\Users\User\AppData\Local\stm32cube\bundles\cmake\4.0.1+st.3\bin\cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/User/Documents/Nofosoft/nofys"
+MakeCommand: "C:\Program Files\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -63,8 +63,8 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: C:/msys64/mingw64/bin/c++.exe
-CompilerVersion: 15.2.0
+Compiler: C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe
+CompilerVersion: 19.50.35729.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

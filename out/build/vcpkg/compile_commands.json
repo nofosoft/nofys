@@ -1,8 +1,8 @@
 [
 {
   "directory": "C:/Users/User/Documents/Nofosoft/nofys/out/build/vcpkg",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -g -o CMakeFiles\\nofys.dir\\main.cpp.obj -c C:\\Users\\User\\Documents\\Nofosoft\\nofys\\main.cpp",
-  "file": "C:\\Users\\User\\Documents\\Nofosoft\\nofys\\main.cpp",
-  "output": "CMakeFiles\\nofys.dir\\main.cpp.obj"
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_SHARED -external:IC:\\Users\\User\\Documents\\Nofosoft\\nofys\\out\\build\\vcpkg\\vcpkg_installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\nofys.dir\\main.cpp.obj /FdCMakeFiles\\nofys.dir\\ /FS -c C:\\Users\\User\\Documents\\Nofosoft\\nofys\\main.cpp",
+  "file": "C:/Users/User/Documents/Nofosoft/nofys/main.cpp",
+  "output": "C:/Users/User/Documents/Nofosoft/nofys/out/build/vcpkg/CMakeFiles/nofys.dir/main.cpp.obj"
 }
 ]
