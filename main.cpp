@@ -1,7 +1,5 @@
-#include <fmt/core.h>
+#include <iostream>
 
-int main()
-{
-    fmt::print("Hello from {}\n", "vcpkg + CMake");
-    return 0;
+int main(int, char**){
+    std::cout << "Hello, from nofys!\n";
 }

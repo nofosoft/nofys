@@ -1,8 +1,0 @@
-[
-{
-  "directory": "C:/Users/User/Documents/Nofosoft/nofys/out/build/CMakePresets",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -DFMT_SHARED -isystem C:/vcpkg/installed/x64-mingw-dynamic/include -g -o CMakeFiles\\nofys.dir\\main.cpp.obj -c C:\\Users\\User\\Documents\\Nofosoft\\nofys\\main.cpp",
-  "file": "C:/Users/User/Documents/Nofosoft/nofys/main.cpp",
-  "output": "C:/Users/User/Documents/Nofosoft/nofys/out/build/CMakePresets/CMakeFiles/nofys.dir/main.cpp.obj"
-}
-]

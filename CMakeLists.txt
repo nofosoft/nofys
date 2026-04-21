@@ -3,9 +3,6 @@ project(nofys VERSION 0.1.0 LANGUAGES C CXX)
 
 add_executable(nofys main.cpp)
 
-find_package(fmt CONFIG REQUIRED)
-target_link_libraries(nofys PRIVATE fmt::fmt)
-
 include(CTest)
 enable_testing()
 
